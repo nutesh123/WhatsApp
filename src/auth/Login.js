@@ -5,9 +5,8 @@ const Login = ({navigation}) => {
   const [email, setEmail] = useState('');
   const [password, setPassword] = useState('');
  
-
   const [show, setshow] = useState(false);
-
+  const [user , setuser]= useState(false)
 
   const handleSignup = () => {
     // Perform signup logic here
